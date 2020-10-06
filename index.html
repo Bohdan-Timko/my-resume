@@ -3,16 +3,145 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MzResume</title>
+    <title>MyResume</title>
+    <link rel="stylesheet" href="./CSS/Styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-        deleniti modi aliquid mollitia eos voluptatibus minima, in accusantium.
-        Culpa sit delectus, iure asperiores laboriosam repellat! Omnis atque
-        delectus quia quam.
-      </p>
+    <!--Main container-->
+
+    <div class="wrapper">
+      <aside class="sidebar">
+        <img class="my-photo" src="./img/me.jpg" alt="My photo" />
+
+        <!--Contacts container-->
+        <div class="contacts-container">
+          <h3>Contacts</h3>
+          <div>
+            <span class="contacts-letter">C:</span>
+            <a class="contacts-link" href="tel:380978320877">+38 097 832 08 77</a>
+          </div>
+          <div>
+            <span class="contacts-letter">E:</span>
+            <a class="contacts-link" href="mailto: bohdan.timko@gmail.com">bohdan.timko@gmail.com</a>
+          </div>
+        </div>
+        <!-- Tech skills container -->
+        <div class="tech-skills-container">
+          <h3 class="tech-skills-title">Tech Skills</h3>
+          <ul>
+            <li class="techskill1"><span class="techskills-text">HTML5</span></li>
+            <li class="techskill1"><span class="techskills-text">CSS3</span></li>
+            <li class="techskill1"><span class="techskills-text">GIT</span></li>
+            <li class="techskill1"><span class="techskills-text">WebPack</span></li>
+            <li class="techskill1"><span class="techskills-text">JavaScript</span></li>
+            <li class="techskill1"><span class="techskills-text">React.js</span></li>
+            <li class="techskill1"><span class="techskills-text">Node.js</span></li>
+          </ul>
+        </div>
+        <!-- Softskills container -->
+        <div class="softskills-container">
+          <h3 class="softskills-title">Soft Skills</h3>
+          <ul>
+            <li class="softskills1"><span class="softskills-text">Scrum </span></li>
+            <li class="softskills1"><span class="softskills-text">Agile </span></li>
+            <li class="softskills1"><span class="softskills-text">GTD </span></li>
+            <li class="softskills1"><span class="softskills-text">Teamwork</span></li>
+            <li class="softskills1"><span class="softskills-text">Responsibilitie</span></li>
+            <li class="softskills1"><span class="softskills-text">Stress resistance</span></li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--Info about me-->
+      <div class="about-me-container">
+        <!--About me main info-->
+        <div class="info-conntainer">
+          <h2 class="Profession">Front-End Developer</h2>
+          <h1 class="name">Bohdan Timko</h1>
+          <p class="description">
+            I am a self-motivated and result-oriented person. I really know what I need from my life, friends, and
+            colleagues. I Believe that there are no unresolvable tasks duties and problems. And I'm really assured in
+            that thing that someday and somehow I'll reach all of my objectives.
+          </p>
+        </div>
+
+        <!--Projects container-->
+        <div class="proj-container">
+          <h3 class="my-container-title">Projects</h3>
+          <ol>
+            <li class="item-no">
+              <a class="proj-class" href="https://lovecamp.goit.ua/">https://lovecamp.goit.ua/</a>
+              <span class="dots">...................</span>
+              <span class="tech-name"><b>[</b> HTML5, CSS3 <b>]</b></span>
+            </li>
+            <li class="item-no">
+              <a class="proj-class" href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/</a>
+              <span class="dots">..................</span>
+              <span class="tech-name"><b>[</b> JavaScript <b>]</b></span>
+            </li>
+            <li class="item-no">
+              <a class="proj-class" href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/</a>
+              <span class="dots">..................</span>
+              <span class="tech-name"><b>[</b> React.js, Node.js <b>]</b></span>
+            </li>
+          </ol>
+        </div>
+
+        <!--Work Experience-->
+        <div>
+          <h3 class="my-container-title">Work Experience</h3>
+
+          <!--company 1-->
+          <div>
+            <h4 class="prof-title"><span class="prof-color">QAE</span> Oberbeton Invest</h4>
+            <span class="work-period">November 2090 - up to now <span class="line">|</span> Ukraine</span>
+            <ul class="responsibilities">
+              <li>Establish and Maintain Quality Managemen.</li>
+              <li>Develop and Monitor Performance Metrics for All Stages of the Production Process.</li>
+              <li>Inspect the Quality of Raw Production Materials</li>
+              <li>Run Various Tests on Finished Products</li>
+              <li>Determine Root Cause of Faulty Products</li>
+            </ul>
+          </div>
+
+          <!--company 2-->
+          <div>
+            <h4 class="prof-title"><span class="prof-color">Front-End Developer</span> Freelance</h4>
+            <span class="work-period">July 2020 - up to now <span class="line">|</span> Ukraine</span>
+            <ul class="responsibilities">
+              <li>Finished online marathon in GO_IT company.</li>
+              <li>Reached my first Front-End Development experience.</li>
+              <li>Created my first WEB page</li>
+              <li>Finished my first Softskills test.</li>
+              <li>Completed my own great Achievement</li>
+            </ul>
+          </div>
+
+          <!--company 3-->
+          <div>
+            <h4 class="prof-title"><span class="prof-color">QAE</span> FAIVELEY TRANSPORT CZECH A.S.</h4>
+            <span class="work-period">August 2017 -August 2019 <span class="line">|</span> Ukraine</span>
+            <ul class="responsibilities">
+              <li>Establish and Maintain Quality Managemen</li>
+              <li>Develop and Monitor Performance Metrics for All Stages of the Production Process</li>
+              <li>Inspect the Quality of Raw Production Materials</li>
+              <li>Run Various Tests on Finished Products</li>
+              <li>Determine Root Cause of Faulty Products</li>
+              <li>Manage qality of suppliers</li>
+              <li>Measure of different parts on 3D arm, create 3d models of parts.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education container -->
+        <div>
+          <h3 class="my-container-title">Education</h3>
+          <h4 class="school">Zhytomyr cooperative college of business and law</h4>
+          <h5 class="profession">Programing</h5>
+          <span class="work-period">December 2006 - June 2010 <span class="line">|</span> Ukraine</span>
+        </div>
+      </div>
     </div>
   </body>
 </html>

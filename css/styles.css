@@ -1,0 +1,208 @@
+
+* {
+  padding  0;
+  margin  0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f7fa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+  background-color: floralwhite;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.sidebar {
+  background: #1e2939;
+  width: 370px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.my-photo {
+  width: 370px;
+}
+.about-me-container {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.contacts-container {
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+.contacts-container {
+font-size: 19px;
+font-weight: 700;
+line-height: 24px;
+color: floralwhite;
+}
+.contacts-link {
+  color: #424a56;
+  margin-left: 10px;
+}
+.contacts-letter {
+  color: white;
+}
+.tech-skills-title {
+font-size: 22px;
+font-weight: 700;
+line-height: 24px;
+margin-bottom: 20px;
+margin-left: 20px;
+color: white;
+}
+.tech-skills-container {
+  margin-left: 10px;
+  margin-right: 40px;
+  margin-top: 55px;
+}
+.techskill1 {
+width: 49px;
+color: orange;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+.techskills-text {
+  color: #acb0b6;
+  
+}
+.softskills-container {
+  margin-left: 10px;
+  margin-right: 40px;
+  margin-top: 5px;
+}
+.softskills-title {
+font-size: 22px;
+font-weight: 700;
+line-height: 24px;
+margin-bottom: 20px;
+margin-left: 20px;
+color: white;
+}
+.softskills1 {
+  color: orange;
+  margin-top: 5px;
+
+}
+.softskills-text {
+color: #acb0b6
+}
+.profession {
+  font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+margin-bottom: 23px;
+margin-top: 110;
+}
+.name {
+font-size: 45px;
+font-weight: 700;
+line-height: 89px;
+margin-bottom: 23px;
+margin-top: 23;
+}
+.info-conntainer {
+  margin-bottom: 65px;
+}
+.description {
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+color: #9a9a9a; 
+}
+.my-container-title {
+font-size: 22px;
+font-weight: 700;
+line-height: 24px;
+}
+.proj-class {
+color: #989898;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+}
+.tech-name {
+color: #989898; 
+}
+.dots {
+  font-weight: 100;
+  color: #989898;
+}
+b {
+  color: black;
+}
+.item-no {
+  font-weight: 700;
+  margin-right: 10px;
+}
+.proj-container {
+  margin-bottom: 55px;
+}
+.prof-title {
+  margin-top: 10px;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.48px;
+color: #ff6b08;
+letter-spacing: 0.48px;
+}
+.prof-color {
+  color: black;
+}
+.work-period {
+  width: 179px;
+height: 13px;
+color: #a8a8a8;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.36px;
+margin-bottom: 14px;
+}
+.line {
+  color: black;
+}
+.responsibilities {
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+margin-top: 14px;
+color: #5a5a5a;
+margin-bottom: 30px;
+}
+.school {
+height: 16px;
+color: #ff6b08;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.48px;
+margin-top: 21px;
+}
+.profession {
+width: 102px;
+height: 13px;
+color: #000000;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+margin-bottom: 14px;
+margin-top: 15px;
+}
